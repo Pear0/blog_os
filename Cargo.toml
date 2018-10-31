@@ -15,6 +15,9 @@ pic8259_simple = "0.1.1"
 version = "1.0"
 features = ["spin_no_std"]
 
+[dependencies.pc-keyboard]
+git = "https://github.com/thejpster/pc-keyboard.git"
+
 [dev-dependencies]
 array-init = "0.0.3"
 
